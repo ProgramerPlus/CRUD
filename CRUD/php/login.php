@@ -9,7 +9,7 @@ $senha = $_POST['senha'];
 include 'conexao.php';
 
 //
-$select="SELECT * FROM tb_usuario WHERE nm_usuario = '$usuario' AND ds_senha='$senha'";
+$select="SELECT * FROM tb_usuario WHERE ds_login = '$usuario'";
 
 // executar a instrução dentro do banco
 $query = $conexao->query($select);
