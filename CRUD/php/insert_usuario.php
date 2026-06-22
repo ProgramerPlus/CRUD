@@ -15,7 +15,7 @@ $query = $conexao->query($insert);
 
 if ($query == true ) {
 
-echo "<script> alert ('usuario cadastrado com sucesso!'); history.back() </script>";
+echo "<script> alert ('Usuario cadastrado com sucesso!'); history.back() </script>";
 
 
 
